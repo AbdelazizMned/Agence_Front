@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "calibri";
+    src: url("/src/assets/Fonts/calibri-bold.ttf");
+}
+@font-face {
+    font-family: "calibri-nrml";
+    src: url("/src/assets/Fonts/calibri-regular.ttf");
+}
+@keyframes textanimation {
+    from{color: rgb(255, 255, 255);font-size: 21px;}
+    to{color: #90fff6; font-size: 22px;}
+}
+@keyframes boxanimation {
+    from {background-color: #5AE0A5;}
+    to {background-color: #a8fcd8;}
+}
+
+:root {
+    --dark: #0C6661;
+    --light: #5AE0A5;
+    --shadow: #6AB694;
+    --darks: #094F4B;
+}
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark);
+    color: white;
+    height: 60px;
+    padding: 0 30px 0 0;
+    font-family: "calibri";
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+.pd {
+    padding-left: 15px;
+}
+.lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavButton {
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    background-color: var(--light);
+    border: var(--dark);
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 5px 15px 5px 15px;
+    font-family: "calibri";
+    box-shadow: 0 4px 8px 0 var(--darks), 0 6px 20px 0 var(--darks);
+
+}
+.language {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.logo {
+    background-color: var(--light);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 40px 40px 0;
+    font-size: 30px;
+    width: 130px;
+    padding: 0 30px 0 10px;
+    text-shadow: 1px 1px 2px var(--shadow);
+}
+.logoimg {
+    height: 200px;
+    width: 200px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.NavButton:hover {
+    animation-name: boxanimation;
+    animation-duration: 500ms;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative; /* Allows positioning the dropdown menu */
+    display: inline-block; /* Ensures the dropdown doesn't break the layout */
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer; /* Indicates clickable element */
+  }
+  
+  .dropdown-menu {
+    display: none; /* Initially hide the dropdown menu */
+    position: absolute; /* Positioned relative to the toggle button */
+    background-color: #DFF1EA; /* Set background color */
+    list-style: none; /* Remove default bullet points */
+    padding: 0; 
+    margin: 0; /* Remove default margin */
+    width: 190px;
+    box-shadow: 0 10px 0 #5AE0A5 inset;
+    z-index:1000;
+
+
+  }
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .dropdown-menu li a {
+    text-decoration: none;
+    color: #4D4C4C;
+    font-size: 20px;
+    font-family: "calibri-nrml";
+  }
+  .dropdown-menu li {
+    padding-bottom: 20px;
+  }
+  .dropdown-menu li:nth-child(3) {
+    padding-bottom: 10px;
+  }
+  .dropdown-menu li:nth-child(1) {
+    padding-top: 20px;
+  }
+
+.dropdown-toggle {
+    border: none;
+    background-color: transparent;
+    font-size: 21px;
+    color: white;
+    font-family: "calibri";
+}  

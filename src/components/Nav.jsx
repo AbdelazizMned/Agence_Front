@@ -1,5 +1,5 @@
 import React from "react";
-import "./Nav.css";
+import "./css/Nav.css";
 import { IoPerson } from "react-icons/io5";
 import samigo from "../assets/Icons/samigo.png";
 
@@ -57,7 +57,7 @@ function Nav() {
               </ul>
             </div>
             <div>
-            <div className="pd"><button class="dropdown-toggle">Contact</button></div>
+            <div className="pd"><button className="dropdown-toggle">Contact</button></div>
             </div>
 
         </div>
