@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "calibri";
+    src: url("/src/assets/Fonts/calibri-bold.ttf");
+}
+@font-face {
+    font-family: "calibri-nrml";
+    src: url("/src/assets/Fonts/calibri-regular.ttf");
+}
+.LogoCard {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.LogoParent {
+    display: flex;
+    justify-content: center;
+}
+.card-img {
+    padding-top: 20px;
+    height: 90px;
+}
+
+.Label {
+    font-family: 'calibri-nrml';
+    color: #0C6661;
+}
+.mini-card {
+    padding-bottom: 50px;
+}

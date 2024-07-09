@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "calibri";
+    src: url("/src/assets/Fonts/calibri-bold.ttf");
+}
+@font-face {
+    font-family: "calibri-nrml";
+    src: url("/src/assets/Fonts/calibri-regular.ttf");
+}
+.slider-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.slider-parent {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.img-card {
+    border-radius: 30px;
+    display: block;
+
+}
+.ChangeImage {
+    all: unset;
+    position: absolute;
+    bottom: -125%;
+    margin: 3rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #0C6661;
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+
+}

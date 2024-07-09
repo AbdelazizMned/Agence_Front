@@ -4,7 +4,9 @@ import slide1 from "../assets/Images/slide1.jpg";
 import slide2 from "../assets/Images/slide2.jpg";
 import slide3 from "../assets/Images/slide3.jpg";
 import socialmedia from "../assets/Icons/socialmedia.png";
-import { Search, ChevronDown } from "lucide-react";
+import { Search, ChevronDown, Facebook } from "lucide-react";
+import { IoLogoWhatsapp, IoLogoInstagram, IoLogoTwitter   } from "react-icons/io5";
+
 var Images = [slide1, slide2, slide3];
 
 function Hero() {
@@ -25,7 +27,20 @@ function Hero() {
   var options = ["Tunis", "Turkey", "Paris"];
   return (
     <div className="slide-container">
-      <img className="socialmedia" src={socialmedia} />
+      <div className="socialmedia-div">
+        <a href="">
+          <IoLogoTwitter />
+        </a>
+        <a href="">
+          <Facebook style={{fill:'black', width:'15px', height:'30px'}}/>
+        </a>
+        <a href="">
+          <IoLogoInstagram />
+        </a>
+        <a href="">
+          <IoLogoWhatsapp />
+        </a>
+      </div>
       <div className="wrapper">
         {Images.map((url) => {
           return (
@@ -167,7 +182,7 @@ function Hero() {
               ))}
             </div>
           </div>
-        </div>
+        </div>  
         <div className="lineb"></div>
         <div>
           <button

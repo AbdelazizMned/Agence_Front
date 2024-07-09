@@ -1,10 +1,10 @@
 @font-face {
     font-family: "calibri";
-    src: url("../assets/Fonts/calibri-bold.ttf");
+    src: url("/src/assets/Fonts/calibri-bold.ttf");
 }
 @font-face {
     font-family: "calibri-nrml";
-    src: url("../assets/Fonts/calibri-regular.ttf");
+    src: url("/src/assets/Fonts/calibri-regular.ttf");
 }
 .footer-wrapper {
     bottom: 0;

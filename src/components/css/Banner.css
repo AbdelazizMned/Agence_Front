@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "calibri";
+    src: url("/src/assets/Fonts/calibri-bold.ttf");
+}
+@font-face {
+    font-family: "calibri-nrml";
+    src: url("/src/assets/Fonts/calibri-regular.ttf");
+}
+:root {
+    --dark: #0C6661;
+    --light: #5AE0A5;
+    --shadow: #6AB694;
+    --darks: #094F4B;
+}
+.banner-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.img {
+    width: 32%;
+    height: 100%;
+}
+.textdiv {
+    font-family: 'calibri-nrml';
+    text-align: center;
+}
+.titletext {
+    font-family: 'calibri';
+    font-size: 18px;
+    color: var(--dark);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.buttontext {
+    background-color: var(--dark);
+    border-style: none;
+    padding: 12px;
+    color: white;
+    font-family: 'calibri-nrml';
+    border-radius: 40px;
+}
+.texttext {
+    letter-spacing: 1px;
+}

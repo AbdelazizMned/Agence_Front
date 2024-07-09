@@ -84,6 +84,7 @@
 .NavButton:hover {
     animation-name: boxanimation;
     animation-duration: 500ms;
+    animation-fill-mode: forwards;
     cursor: pointer;
 }
 .dropdown {
