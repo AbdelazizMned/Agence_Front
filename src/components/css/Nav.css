@@ -27,13 +27,15 @@
     align-items: center;
     background-color: var(--dark);
     color: white;
-    height: 60px;
+    height: 110px;
     padding: 0 30px 0 0;
     font-family: "calibri";
+    gap: 10rem;
 }
 .links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 0.1rem;
 }
 .pd {
     padding-left: 15px;
@@ -49,7 +51,7 @@
     align-items: center;
     background-color: var(--light);
     border: var(--dark);
-    font-size: 18px;
+    font-size: 27px;
     border-radius: 40px;
     padding: 5px 15px 5px 15px;
     font-family: "calibri";
@@ -60,7 +62,7 @@
     text-decoration: none;
     color: white;
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 30px;
 }
 .logo {
     background-color: var(--light);
@@ -68,15 +70,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0 40px 40px 0;
+    border-radius: 0 60px 60px 0;
     font-size: 30px;
-    width: 130px;
+    width: 200px;
     padding: 0 30px 0 10px;
     text-shadow: 1px 1px 2px var(--shadow);
 }
 .logoimg {
-    height: 200px;
-    width: 200px;
+    height: 300px;
     padding-top: 5px;
     padding-left: 10px;
 }
@@ -135,7 +136,7 @@
 .dropdown-toggle {
     border: none;
     background-color: transparent;
-    font-size: 21px;
+    font-size: 40px;
     color: white;
     font-family: "calibri";
 }  

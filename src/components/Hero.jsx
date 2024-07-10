@@ -68,7 +68,7 @@ function Hero() {
           className="lists dropdown-container"
           style={{ color: "white", fontSize: "15px" }}
         >
-          destination
+          <p className='dest-font'>destination</p>
           <div class="dropdown">
             <button class="dropbtn">
               {count === "" ? "Tunis" : count}
@@ -88,7 +88,7 @@ function Hero() {
           className="lists dropdown-container"
           style={{ color: "white", fontSize: "15px" }}
         >
-          destination
+          <p className='dest-font'>destination</p>
           <div class="dropdown">
             <button class="dropbtn">
               {count === "" ? "Tunis" : count}
@@ -108,7 +108,7 @@ function Hero() {
           className="lists dropdown-container"
           style={{ color: "white", fontSize: "15px" }}
         >
-          destination
+          <p className='dest-font'>destination</p>
           <div class="dropdown">
             <button class="dropbtn">
               {count === "" ? "Tunis" : count}
@@ -128,7 +128,7 @@ function Hero() {
           className="lists dropdown-container"
           style={{ color: "white", fontSize: "15px" }}
         >
-          destination
+          <p className='dest-font'>destination</p>
           <div class="dropdown">
             <button class="dropbtn">
               {count === "" ? "Tunis" : count}
@@ -148,7 +148,7 @@ function Hero() {
           className="lists dropdown-container"
           style={{ color: "white", fontSize: "15px" }}
         >
-          destination
+          <p className='dest-font'>destination</p>
           <div class="dropdown">
             <button class="dropbtn">
               {count === "" ? "Tunis" : count}
@@ -168,7 +168,7 @@ function Hero() {
           className="lists dropdown-container"
           style={{ color: "white", fontSize: "15px" }}
         >
-          destination
+          <p className='dest-font'>DESTINATION</p>
           <div class="dropdown">
             <button class="dropbtn">
               {count === "" ? "Tunis" : count}

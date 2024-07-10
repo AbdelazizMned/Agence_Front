@@ -3,6 +3,7 @@ import './css/MainBan.css'
 import CardSlider from './CardSlider'
 import Recom from './Recom'
 import LogoCard from './LogoCard'
+import Destination from './Destination'
 
 function MainBan() {
   return (
@@ -12,6 +13,8 @@ function MainBan() {
       <h1 className='title-promo'>BEST RECOMMENDATIONS</h1>
       <LogoCard />
       <Recom />
+      <h1 className='title-promo'>BEST DESTINATION</h1>
+      <Destination />
     </div>
   )
 }

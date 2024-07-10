@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 95%;
+    padding-bottom: 50px;
 }
 .recom-parent {
     display: flex;

@@ -1,0 +1,33 @@
+.sections-parent {
+    display: flex;
+    justify-content: center;
+}
+.sections-container {
+    width: 74%;
+    display: grid;
+    border: 6px solid #C2D9D7;
+    border-radius: 35px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 6rem;
+    grid-template-columns: repeat(8, minmax(5px, 1fr));
+    
+}
+.sect {
+    display: grid;
+    align-content: center;
+}
+.name {
+    font-family: 'calibri-nrml';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0C6661;
+    grid-column: span 4;
+    margin-left: 5rem;
+}
+.sects {
+    font-family: 'calibri-nrml';
+    font: 1rem;
+    color: #0C6661;
+}
+

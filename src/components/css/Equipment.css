@@ -1,0 +1,56 @@
+.equip-parent {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+.equip-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50%, 1fr));
+    gap: 12rem;
+    width: 74%;
+    background-color: #277772;
+    height: 15rem;
+    border-radius: 30px;
+}
+.info {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.stars {
+    font-size: 1.4rem;
+    color: white;
+}
+.hotel-name {
+    font-family: 'calibri';
+    color: white;
+    font-size: 25px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+.location {
+    font-family: 'calibri-nrml';
+    color: white;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.equipment {
+    padding: 1.5rem;
+    padding-top: 4.2rem;
+    font-family: 'calibri';
+    font-size: 25px;
+    color: white;
+
+}
+
+.things {
+    margin-top: 1rem;
+    font-size: 18px;
+    font-family: 'calibri-nrml';
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+    gap: 0;
+}

@@ -1,0 +1,30 @@
+.description-parent {
+    display: flex;
+    justify-content: center;
+}
+.description-container {
+    border: 1px solid #35807C;
+    height: 13rem;
+    border-radius: 20px;
+    width: 74%;
+    margin-bottom: 6rem;
+    font-family: 'calibri-nrml';
+    font-size: 18px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    color: #35807C;
+}
+.description-header {
+    font-family: 'calibri';
+    font-size: 25px;
+    color: #35807C;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin: 2rem;
+    margin-bottom: 0.5rem;
+}
+.description-text {
+    padding-right: 15rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}

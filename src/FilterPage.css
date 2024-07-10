@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "calibri";
+    src: url("/src/assets/Fonts/calibri-bold.ttf");
+}
+@font-face {
+    font-family: "calibri-nrml";
+    src: url("/src/assets/Fonts/calibri-regular.ttf");
+}
+.title-sec {
+    margin: 4rem;
+    font-family: 'calibri';
+    color: #0C6661;
+}

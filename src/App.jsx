@@ -14,7 +14,7 @@ function App() {
      <Hero />
      <Banner />
      <MainBan />
-     {/* <Footer />  */}
+     <Footer /> 
     </>
   )
 }
