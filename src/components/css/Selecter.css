@@ -1,0 +1,175 @@
+@keyframes button-animation {
+  50% {
+    scale: 0.9;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.selecter-parent {
+  display: flex;
+  justify-content: center;
+}
+.selecter-container {
+  width: 70%;
+  display: flex;
+  border-radius: 35px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #277772;
+  height: 230px;
+  padding: 0 4rem 0 4rem;
+  margin-bottom: 10rem;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: #277772;
+}
+
+.dropdown:hover .dropdown-content {
+  display: relative;
+}
+.dropdown span {
+  font-family: "calibri";
+  font-size: 25px;
+  background-color: white;
+  border: 1px solid transparent;
+}
+.datee {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #C7DCDB;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  font-family: 'calibri';
+  color: #277772;
+  font-size: 30px;
+  border-radius: 35px;
+}
+.date-selecter {
+
+  color: black;
+}
+.room {
+  display: flex;
+  flex-direction: column;
+  background-color: #C7DCDB;
+  padding: 0.5rem 15rem 0.5rem 0.5rem;
+  font-family: 'calibri';
+  color: #277772;
+  font-size: 30px;
+  border-radius: 35px;
+}
+.selecter-forms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.selecter-header {
+    margin: 0.5rem 0 0 2rem;
+    font-family: 'calibri';
+    color: white;
+    font-size: 30px;
+}
+.dropdown-buttons {
+    all: unset;
+    background-color: #4DC598;
+    color: white;
+    padding: 2rem;
+    border-radius: 35px;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'calibri';
+    cursor: pointer;
+}
+.dropdown-buttons:hover {
+  animation-name: button-animation;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+.room div {
+    margin-left: 1.5rem;
+}
+.forms {
+  display: flex;
+  justify-content: space-evenly
+}
+.forms-style {
+  display: flex;
+}
+.date-selecter {
+  background-color: #C7DCDB;
+  font-family: 'calibri';
+}
+.form {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 2px solid #277772;
+  padding: 0.5rem 11rem 0.5rem 0.5rem;
+  font-family: 'calibri';
+  color: #277772;
+  font-size: 30px;
+  border-radius: 35px;
+}
+.sub-header {
+  font-family: 'calibri';
+  color: #277772;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.room-selecter {
+  width: 100%;
+}
+.plus-room {
+  display: flex;
+  align-items: center;
+  font-family: 'calibri';
+  font-size: 1.5rem;
+  width: 25%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.sub-footer {
+
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashed-line {
+  border: 0.2px dashed #277772;
+  margin: 1.5rem 0 1.5rem 0 ;
+}
+.forms-container {
+  width: 80%;
+}
+.line {
+  border-top: 1px solid #277772;
+  width: 100%;
+  height: 0px;
+}
+.button-div {
+  all: unset;
+  display: flex;
+  align-items: center;
+  font-family: 'calibri';
+  font-size: 20px;
+  cursor: pointer;
+}

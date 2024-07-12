@@ -6,6 +6,9 @@ import ImageGrid from './components/ImageGrid.jsx'
 import Sections from './components/Sections.jsx'
 import Equipment from './components/Equipment.jsx'
 import Description from './components/Description.jsx'
+import Selecter from './components/Selecter.jsx'
+import RoomAdd from './components/RoomAdd.jsx'
+import Map from './components/Map.jsx'
 
 
 function FilterPage() {
@@ -17,6 +20,9 @@ function FilterPage() {
         <Sections />
         <Equipment />
         <Description />
+        <Selecter />
+        <RoomAdd />
+        <Map />
     </div>
   )
 }
