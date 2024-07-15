@@ -3,6 +3,7 @@ import './css/CardSlider.css'
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 
+
 function CardSlider() {
   return (
     <div className='slider-parent'>

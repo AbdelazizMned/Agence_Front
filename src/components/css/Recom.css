@@ -1,7 +1,8 @@
 .recom-container {
     display: flex;
-    justify-content: space-evenly;
-    width: 95%;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 85%;
     padding-bottom: 50px;
 }
 .recom-parent {
@@ -37,5 +38,5 @@
 }
 .img-card-rec {
     height: 390px;
-    width: 400px;
+    width: 100%;
 }

@@ -1,0 +1,89 @@
+.info-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.info-container {
+    width: 65%;
+    background-color: #0C6661;
+    height: 9rem;
+    border-radius: 80px;
+}
+.picker {
+    position: absolute;
+    z-index: 9999;
+    background-color: #0C6661;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 70px;
+    width: 60%;
+    height: 8rem;
+    left: 50%;
+    translate: -50% -45px;
+}
+.dest-font {
+    font-family: "calibri-nrml";
+    font-size: 1.5rem;
+}
+.lineb {
+    background-color: white;
+    width: 1px;
+    height: 3rem;
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropbtn {
+    background-color: #0C6661;
+    color: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0C6661;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-family: 'calibri-nrml';
+    color: white;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #5AE0A5}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #0C6661;
+}
+.dropbtn {
+    display: flex;
+    align-items: center;
+}

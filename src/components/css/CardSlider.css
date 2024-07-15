@@ -10,6 +10,7 @@
     width: 80%;
     display: flex;
     justify-content: space-evenly;
+    display: relative;
 }
 .slider-parent {
     display: flex;
@@ -26,7 +27,6 @@
 .ChangeImage {
     all: unset;
     position: absolute;
-    bottom: -125%;
     margin: 3rem;
     padding: 1rem;
     cursor: pointer;

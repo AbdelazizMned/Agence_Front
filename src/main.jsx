@@ -7,6 +7,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import FilterPage from './FilterPage.jsx';
+import Result from './Result.jsx';
+import Country from './Country.jsx';
+import Contact from './Contact.jsx';
 
 
 const router = createBrowserRouter([
@@ -17,6 +20,18 @@ const router = createBrowserRouter([
   {
     path: "filter",
     element: <FilterPage />,
+  },
+  {
+    path: "result",
+    element: <Result />,
+  },
+  {
+    path: "Country",
+    element: <Country />,
+  },
+  {
+    path: "contact",
+    element: <Contact />,
   },
 ]);
 

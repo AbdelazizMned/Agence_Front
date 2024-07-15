@@ -1,0 +1,191 @@
+.Filter-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.Filter-container {
+    width: 90%;
+    display: flex;
+}
+.line-sect {
+    height: 6px;
+    margin: 1rem 0 1rem 0;
+    background-color: #0C6661;
+    width: 100%;
+}
+.search-button {
+    background-color: #0C6661;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.search-form {
+    height: 2rem;
+    margin-right: 1rem;
+}
+.containerq {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containerq input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmarkq {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerq:hover input ~ .checkmarkq {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerq input:checked ~ .checkmarkq {
+    background-color: #0C6661;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmarkq:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerq input:checked ~ .checkmarkq:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+.containerq .checkmarkq:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.Filtered {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.result-card {
+    background-color: #E7FBF2;
+    width: 1200px;
+    margin-left: 9rem;
+    border-radius: 200px;
+    margin-bottom: 1.5rem;
+}
+.location-info {
+    display: flex;
+    align-items: center;
+    color: #707070;
+    font-size: 1.3rem;
+    margin-bottom: .8rem;
+}
+.img-props {
+    height: 450px;
+    width: 85%;
+    border-radius: 200px 0 0 200px;
+}
+.info-sec {
+    margin: 2rem;
+}
+.intern  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+}
+.price-sec {
+    margin: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.promo-bubble {
+    background-color: #FAC642;
+    padding: 1rem;
+    border-radius: 50%;
+    font-family: 'calibri';
+    font-size: 2rem;
+    color: #0C6661;
+}
+.prev-price span {
+    font-family: 'calibri';
+    color: #959595;
+    font-size: 2.1rem;
+    text-decoration:dashed;
+}
+.actual-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'calibri';
+    font-size: 1.2rem;
+    color: #707070;
+}
+.actual-price span {
+    color: #0C6661;
+    font-size: 1.8rem;
+}
+.offre-link {
+    all:unset;
+    padding: 1rem;
+    font-family: 'calibri';
+    font-size: 2rem;
+    color: #0C6661;
+    background-color: #FAC642;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+.info-sec {
+    font-family: 'calibri';
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.stay-info {
+    font-family: 'calibri-nrml';
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.star-info {
+    margin-bottom: 1rem;
+}
+.bonus-info {
+    font-family: 'calibri-nrml';
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}

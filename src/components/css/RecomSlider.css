@@ -1,0 +1,73 @@
+@keyframes hover-anim {
+    50% {
+        scale: 1.1;
+    }
+    100% {
+        scale: 1;
+    }
+}.ChangeImage {
+    all: unset;
+    position: absolute;
+    margin: 3rem;
+    margin-top: 12rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #0C6661;
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+.ChangeImage:hover {
+    animation-name: hover-anim;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+.recom-container {
+    display: flex;
+    justify-content: space-evenly;  
+    width: 74%;
+    padding-bottom: 50px;
+}
+.recom-parent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+.descriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(38, 102, 90);
+    margin: 0 auto;
+    height: 100px;
+    width: 100%;
+    border-radius: 0 0 40px 40px;
+    top: 83%;
+    opacity: 85%;
+}
+.img-card-rec {
+    border-radius: 40px 40px 40px 40px;
+}
+.titless {
+    font-size: 25px;
+    color: white;
+    font-family: "calibri";
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.text {
+    padding-top: 5px;
+    font-family: 'calibri-nrml';
+}
+
+.img-card-recs {
+    height: 600px;
+    width: 100%;
+}
+.imgdiv {
+    position: relative;
+
+}

@@ -1,0 +1,41 @@
+.sub-header {
+    font-family: 'calibri';
+    font-size: 2.5rem;
+    color: #35807C;
+    margin: 2rem;
+}
+.result-text {
+    font-family: 'calibri';
+    font-size: 2.5rem;
+    color: #35807C;
+    margin: 2rem;
+    margin-bottom: 0.5rem;  
+    margin-top: 9rem;
+}
+.paragraph-t {
+    font-size: 1.3rem;
+    font-family: 'calibri-nrml';
+    color: black;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+
+}
+.tri-div {
+    display: flex;
+    justify-content: right;
+    margin: 2rem;
+    font-family: 'calibri';
+    color: #0C6661;
+    font-size: 1.7rem;
+    align-items: center;
+}
+.tri-div p {
+    margin-right: 1rem;
+}
+.form-tri {
+    height: 3rem;
+    width: 16rem;
+    font-family: 'calibri-nrml';
+    color: #888888;
+    font-size: 1.1rem;
+}
