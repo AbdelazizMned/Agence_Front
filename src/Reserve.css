@@ -1,0 +1,244 @@
+@keyframes btn-anim {
+  50% {
+    scale: 1.05;
+    background-color: #08918a;
+  }
+  100% {
+    scale: 1;
+    background-color: #08918a;
+  }
+}
+.ban-text {
+  margin-left: 6rem;
+  font-size: 1.6rem;
+  font-family: "calibri-nrml";
+  margin-bottom: 2rem;
+}
+.ban-header {
+  font-size: 2rem;
+  font-family: "calibri-nrml";
+  color: #0c6661;
+  margin: 6rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.reserve-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reserve-divide {
+  height: 5rem;
+  width: 90%;
+  margin-top: 1rem;
+  background-color: #0c6661;
+  border-radius: 1rem;
+}
+.reserve-container {
+  width: 91%;
+  margin-top: 2rem;
+  display: grid;
+  grid-auto-rows: 100px;
+  grid-template-columns: repeat(3, minmax(565px, 1fr));
+  column-gap: 1rem;
+}
+.reserve-forms {
+  background-color: #e1f9ee;
+  grid-column: span 2;
+  grid-row: span 10;
+  border-radius: 20px;
+}
+.reserve-summary {
+  background-color: #e1f9ee;
+  grid-row: span 7;
+  border-radius: 20px;
+}
+.reserve-forms-container {
+  margin: 3rem;
+}
+.gender-radio {
+    display: flex;
+    align-items: center;
+}
+.containerf {
+  display: flex;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'calibri';
+}
+
+/* Hide the browser's default radio button */
+.containerf input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmarkf {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #0c6661;
+  background-color: #eee;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.containerf:hover input ~ .checkmarkf {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerf input:checked ~ .checkmarkf {
+  background-color: #0c6661;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmarkf:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.containerf input:checked ~ .checkmarkf:after {
+  display: block;
+}
+.containerf .checkmarkf:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.First-head {
+  font-size: 2rem;
+  font-family: "calibri";
+  margin-bottom: 2rem;
+  color: #343333;
+}
+.first-textt {
+  margin-bottom: 2rem;
+  font-family: 'calibri-nrml';
+  font-size: 1.5rem;
+  color: #343333;
+}
+.first-textt a {
+  text-decoration: none;
+  color: #0c6661;
+  cursor: pointer;
+}
+.email-form, .password-form {
+  all: unset;
+  border: 1px solid #0c6661;
+  padding: 0.8rem;
+  margin-right: 1rem;
+  border-radius: 20px;
+  font-family: 'calibri';
+  font-size: 1.2rem;
+  width: 20rem;
+  color: black;
+}
+.login-button {
+  all: unset;
+  padding: 1rem;
+  text-align: center;
+  width: 8rem;
+  border-radius: 20px;
+  color: white;
+  font-family: 'calibri-nrml';
+  font-size: 1.4rem;
+  background-color: #0c6661;
+  cursor: pointer;
+}
+.login-button:hover {
+  animation-name: btn-anim;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+.info-forms {
+  display: flex;
+
+}
+.formm {
+  all: unset;
+  border: 1px solid #0c6661;
+  background-color: #FAEEEE;
+  padding: 0.8rem;
+  width: 40%;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-family: 'calibri-nrml';
+  font-size: 1.2rem;
+  
+}
+.formms {
+  all: unset;
+  border: 1px solid #0c6661;
+  padding: 0.8rem;
+  width: 40%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-family: 'calibri-nrml';
+  font-size: 1.2rem;
+}
+.dropbtng {
+  all: unset;
+  background-color: #E1F9EE;
+  border: 1px solid #0c6661;
+  border-radius: 20px;
+  font-family: 'calibri-nrml';
+  font-size: 1.2rem;
+  color: black;
+  padding: 13px;
+  font-size: 16px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  cursor: pointer;
+}
+
+.dropdowng {
+  position: relative;
+  display: inline-block;
+  width: 55%;
+
+}
+
+.dropdown-contentg {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentg a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-contentg a:hover {background-color: #f1f1f1}
+.dropdowng:hover .dropdown-contentg {
+  display: block;
+}
+.Second-head {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: 'calibri-nrml';
+}

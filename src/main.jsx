@@ -10,6 +10,7 @@ import FilterPage from './FilterPage.jsx';
 import Result from './Result.jsx';
 import Country from './Country.jsx';
 import Contact from './Contact.jsx';
+import Reserve from './Reserve.jsx';
 
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "contact",
     element: <Contact />,
+  },
+  {
+    path: "reserve",
+    element: <Reserve />,
   },
 ]);
 
