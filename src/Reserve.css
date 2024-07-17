@@ -41,24 +41,25 @@
   grid-auto-rows: 100px;
   grid-template-columns: repeat(3, minmax(565px, 1fr));
   column-gap: 1rem;
+  margin-bottom: 5rem;
 }
 .reserve-forms {
   background-color: #e1f9ee;
   grid-column: span 2;
-  grid-row: span 10;
+  grid-row: span 20;
   border-radius: 20px;
 }
 .reserve-summary {
   background-color: #e1f9ee;
-  grid-row: span 7;
+  grid-row: span 9;
   border-radius: 20px;
 }
 .reserve-forms-container {
   margin: 3rem;
 }
 .gender-radio {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .containerf {
   display: flex;
@@ -72,7 +73,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: 'calibri';
+  font-family: "calibri";
 }
 
 /* Hide the browser's default radio button */
@@ -130,7 +131,7 @@
 }
 .first-textt {
   margin-bottom: 2rem;
-  font-family: 'calibri-nrml';
+  font-family: "calibri-nrml";
   font-size: 1.5rem;
   color: #343333;
 }
@@ -139,13 +140,14 @@
   color: #0c6661;
   cursor: pointer;
 }
-.email-form, .password-form {
+.email-form,
+.password-form {
   all: unset;
   border: 1px solid #0c6661;
   padding: 0.8rem;
   margin-right: 1rem;
   border-radius: 20px;
-  font-family: 'calibri';
+  font-family: "calibri";
   font-size: 1.2rem;
   width: 20rem;
   color: black;
@@ -157,7 +159,7 @@
   width: 8rem;
   border-radius: 20px;
   color: white;
-  font-family: 'calibri-nrml';
+  font-family: "calibri-nrml";
   font-size: 1.4rem;
   background-color: #0c6661;
   cursor: pointer;
@@ -169,20 +171,18 @@
 }
 .info-forms {
   display: flex;
-
 }
 .formm {
   all: unset;
   border: 1px solid #0c6661;
-  background-color: #FAEEEE;
+  background-color: #faeeee;
   padding: 0.8rem;
   width: 40%;
   margin-right: 1rem;
   margin-top: 1rem;
   border-radius: 1rem;
-  font-family: 'calibri-nrml';
+  font-family: "calibri-nrml";
   font-size: 1.2rem;
-  
 }
 .formms {
   all: unset;
@@ -192,15 +192,15 @@
   margin-left: 3rem;
   margin-top: 1rem;
   border-radius: 1rem;
-  font-family: 'calibri-nrml';
+  font-family: "calibri-nrml";
   font-size: 1.2rem;
 }
 .dropbtng {
   all: unset;
-  background-color: #E1F9EE;
+  background-color: #e1f9ee;
   border: 1px solid #0c6661;
   border-radius: 20px;
-  font-family: 'calibri-nrml';
+  font-family: "calibri-nrml";
   font-size: 1.2rem;
   color: black;
   padding: 13px;
@@ -214,7 +214,6 @@
   position: relative;
   display: inline-block;
   width: 55%;
-
 }
 
 .dropdown-contentg {
@@ -222,7 +221,7 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -232,13 +231,238 @@
   text-decoration: none;
   display: block;
 }
-.dropdown-contentg a:hover {background-color: #f1f1f1}
+.dropdown-contentg a:hover {
+  background-color: #f1f1f1;
+}
 .dropdowng:hover .dropdown-contentg {
   display: block;
 }
 .Second-head {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-family: "calibri-nrml";
+}
+.civility-section {
   margin-top: 2rem;
+  width: 90%;
+}
+.civility-header {
+  font-size: 2rem;
+  font-family: "calibri";
   margin-bottom: 2rem;
+  color: #0c6661;
+}
+.gendres-form {
+  display: flex;
+  width: 33%;
+  margin-bottom: 2rem;
+}
+.-gender-form {
+  all: unset;
+  border: 1px solid #0c6661;
+  padding: 0.8rem;
+  margin-right: 1rem;
+  border-radius: 20px;
+  font-family: "calibri-nrml";
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.civility-section-parent {
+  display: flex;
+  justify-content: center;
+}
+.form-label {
+  font-size: 1.5rem;
+  font-family: "calibri-nrml";
+}
+.civility-content {
+  display: flex;
+}
+.add-service {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  height: 4rem;
+  background-color: #0c6661;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-family: "calibri";
+  color: white;
+}
+.Third-head {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-family: "calibri-nrml";
+  margin-left: 3.5rem;
+}
+.add-service p {
+  margin-left: 1rem;
+}
+.fourth-head {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-family: "calibri";
+  color: #343333;
+}
+.payment-methods {
+  border: 1px solid #9da2a0;
+  height: 20rem;
+  border-radius: 10px;
+}
+.pay-title {
+  border: 2.5px solid #0c6661;
+  border-radius: 10px 10px 0 0;
+  font-size: 2rem;
+  font-family: "calibri";
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  color: #0c6661;
+}
+.pay-title p {
+  margin-left: 1rem;
+}
+.pay-method {
+  margin: 2rem;
+}
+.logos {
+  display: flex;
+  gap: 1rem;
+}
+.cards-img {
+  width: 10%;
+}
+.containera {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 3rem;
+  font-family: 'calibri-nrml';
+}
+
+/* Hide the browser's default checkbox */
+.containera input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmarka {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.containera:hover input ~ .checkmarka {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containera input:checked ~ .checkmarka {
+  background-color: #08918a;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarka:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containera input:checked ~ .checkmarka:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containera .checkmarka:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.summary-title {
+  font-size: 1.6rem;
+  font-family: "calibri";
+  margin: 3rem;
+  margin-bottom: 1rem;
+  color: #343333;
+}
+.summary-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.summary-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.Hotel-name-sum {
+  margin: 1rem;
+  margin-bottom: .5rem;
   font-size: 1.5rem;
   font-family: 'calibri-nrml';
+  color: #515050;
+}
+.stars-sum {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+.stars-sum-span {
+  fill: #EFA829;
+}
+.location-div {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: #515050;
+}
+.location-div-spc {
+  font-family: 'calibri';
+  font-size: .9rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: #5A5757;
+}
+.price-div-sum {
+  margin: 2rem;
+}
+.sum-price-head {
+  font-size: 1.4rem;
+  font-family: 'calibri';
+  color: #0C6661;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.sum-price {
+  font-size: 1.2rem;
+  font-family: 'calibri';
+  color: #5A5757;
+}
+.sum-price span {
+  margin-left: 2rem;
+  font-size: 3rem;
 }
