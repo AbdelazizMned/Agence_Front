@@ -12,14 +12,14 @@ function Nav() {
         </div>
         <div className="links">
           <div className="pd">
-            <button className="dropdown-toggle">Home</button>
+            <button className="dropdown-toggle"><a style={{textDecoration:'none', color:'white'}} href="/">Home</a></button>
           </div>
           <div></div>
           <div className="dropdown pd">
             <button className="dropdown-toggle">List of hotels</button>
             <ul className="dropdown-menu">
               <li>
-                <a href="#">All Hotels</a>
+                <a href="/filter">All Hotels</a>
               </li>
               <li>
                 <a href="#">Beach Resorts</a>
@@ -33,13 +33,13 @@ function Nav() {
             <button className="dropdown-toggle">Types of holidays</button>
             <ul className="dropdown-menu">
               <li>
-                <a href="#">All Hotels</a>
+                <a href="result">Holiday1</a>
               </li>
               <li>
-                <a href="#">Beach Resorts</a>
+                <a href="#">Holiday1</a>
               </li>
               <li>
-                <a href="#">City Breaks</a>
+                <a href="#">Holiday1</a>
               </li>
             </ul>
           </div>
@@ -47,7 +47,7 @@ function Nav() {
             <button className="dropdown-toggle">special Offers</button>
             <ul className="dropdown-menu">
               <li>
-                <a href="#">All Hotels</a>
+                <a href="reserve">All Hotels</a>
               </li>
               <li>
                 <a href="#">Beach Resorts</a>
@@ -59,7 +59,7 @@ function Nav() {
           </div>
           <div>
             <div className="pd">
-              <button className="dropdown-toggle">Contact</button>
+              <button className="dropdown-toggle"><a style={{textDecoration:'none', color:'white'}} href="/">Contact</a></button>
             </div>
           </div>
         </div>
